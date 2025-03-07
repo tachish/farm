@@ -7,7 +7,7 @@ settings:
 overrides:
   '@farmfe/core': workspace:*
 
-pnpmfileChecksum: sumf6mxlq4dh5nzuuhr3plyxpu
+pnpmfileChecksum: sha256-xhd6NNB3Fr4j7HGXC97KZxThum96DukQYNHshdN0yrk=
 
 importers:
 
@@ -835,6 +835,19 @@ importers:
       react-refresh:
         specifier: ^0.14.0
         version: 0.14.2
+
+  examples/module-federation:
+    dependencies:
+      '@farmfe/plugin-module-federation':
+        specifier: workspace:*
+        version: link:../../rust-plugins/module-federation
+    devDependencies:
+      '@farmfe/cli':
+        specifier: workspace:*
+        version: link:../../packages/cli
+      '@farmfe/core':
+        specifier: workspace:*
+        version: link:../../packages/core
 
   examples/multi-page-app:
     dependencies:
@@ -3002,6 +3015,10 @@ importers:
         version: link:../../packages/plugin-tools
 
   rust-plugins/sass:
+    devDependencies:
+      '@farmfe/plugin-tools':
+        specifier: workspace:*
+        version: link:../../packages/plugin-tools
     optionalDependencies:
       sass-embedded-darwin-arm64:
         specifier: 1.62.0
@@ -3024,10 +3041,6 @@ importers:
       sass-embedded-win32-x64:
         specifier: 1.62.0
         version: 1.62.0
-    devDependencies:
-      '@farmfe/plugin-tools':
-        specifier: workspace:*
-        version: link:../../packages/plugin-tools
 
 packages:
 

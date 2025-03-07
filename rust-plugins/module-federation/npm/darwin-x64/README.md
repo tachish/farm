@@ -1,3 +1,3 @@
-# `@farmfe/module-federation-darwin-x64`
+# `@farmfe/plugin-module-federation-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@farmfe/module-federation`
+This is the **x86_64-apple-darwin** binary for `@farmfe/plugin-module-federation`

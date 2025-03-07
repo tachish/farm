@@ -32,7 +32,7 @@
   "scripts": {
     "dev": "cargo watch -w src -s 'scripts/watch.sh'",
     "bump": "npx changeset version",
-    "play": "pnpm --filter playground dev",
+    "play": "pnpm --filter ../playground dev",
     "build": "farm-plugin-tools build --platform --cargo-name farmfe_module_federation -p farmfe_module_federation --release",
     "prepublishOnly": "farm-plugin-tools prepublish"
   },

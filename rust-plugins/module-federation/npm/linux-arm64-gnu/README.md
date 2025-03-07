@@ -1,3 +1,3 @@
-# `@farmfe/module-federation-linux-arm64-gnu`
+# `@farmfe/plugin-module-federation-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `@farmfe/module-federation`
+This is the **aarch64-unknown-linux-gnu** binary for `@farmfe/plugin-module-federation`
